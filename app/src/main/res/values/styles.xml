@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme compatible with Gingerbread -->
+    <style name="AppTheme" parent="@android:style/Theme.Light">
+        <!-- No action bar for Gingerbread -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Custom title bar style -->
+    <style name="CustomTitleBar">
+        <item name="android:background">@color/primary</item>
+        <item name="android:padding">8dp</item>
+    </style>
+</resources>
